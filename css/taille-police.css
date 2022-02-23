@@ -1,0 +1,54 @@
+/* fichier css pour modifier la taille de police en fonction de la taille de l'ecran (media-queries) */
+
+
+
+/*==================================VERSION ORDINATEUR==================================*/
+@media screen and (min-width: 800px){
+
+h1{
+	
+}
+
+h4{
+	
+}
+
+p{
+
+}
+}
+
+/*==================================VERSION TABLETTE==================================*/
+@media screen and (min-width: 600px) and (max-width: 800px){
+
+h1{
+
+}
+
+h4{
+	
+}
+
+p{
+
+}
+}
+
+
+/*==================================VERSION SMARTPHONE==================================*/
+@media screen and (max-width: 800px){
+
+h1{
+	font-size: 200%;
+}
+
+h4{
+	font-size: 100%;
+}
+
+p{
+	font-size: 90%;
+}
+}
+
+
